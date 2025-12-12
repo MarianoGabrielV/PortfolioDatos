@@ -1,0 +1,40 @@
+:root {
+  --bs-body-bg: #0f172a;
+  --bs-body-color: #f8fafc;
+  --primary-color: #38bdf8;
+  --secondary-color: #818cf8;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-color);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(15, 23, 42, 0.8) !important;
+}
+
+.section-padding {
+  padding: 80px 0;
+}

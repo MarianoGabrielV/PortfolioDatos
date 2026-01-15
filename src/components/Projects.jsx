@@ -8,21 +8,23 @@ const Projects = () => {
             description: "Este dashboard muestra la resolucion de tkt's para la empresa donde actualmente me desempeño como Analista de Datos y Programador.",
             tags: ["PowerBI", "Excel"],
             link: "#",
-            image: "/images/dashbees.png"
+            image: "/Images/dashbees.png"
         },
         {
             id: 2,
             title: "E-Commerce Demo",
             description: "Una tienda en línea simulada con carrito de compras.",
             tags: ["Vue", "Tailwind", "Firebase"],
-            link: "#"
+            link: "#",
+            image: "/Images/dashbees.png"
         },
         {
             id: 3,
             title: "Task Dashboard",
             description: "Aplicación de gestión de tareas y productividad.",
             tags: ["React", "Node.js", "MongoDB"],
-            link: "#"
+            link: "#",
+            image: "/Images/dashbees.png"
         }
     ];
 

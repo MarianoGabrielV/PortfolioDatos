@@ -6,10 +6,9 @@ const Footer = () => {
             <div className="container">
                 <p className="mb-2">&copy; {new Date().getFullYear()} Diseño Personal. Todos los derechos reservados.</p>
                 <div className="d-flex justify-content-center gap-3">
-                    <a href="#" className="text-white text-decoration-none">GitHub</a>
-                    <a href="#" className="text-white text-decoration-none">LinkedIn</a>
-                    <a href="#" className="text-white text-decoration-none">Twitter</a>
-                </div>
+                    <a href="https://github.com/MarianoGabrielV" className="text-white text-decoration-none">GitHub</a>
+                    <a href="https://www.linkedin.com/in/marianovergniaud/" className="text-white text-decoration-none">LinkedIn</a>
+                    </div>        
             </div>
         </footer>
     );

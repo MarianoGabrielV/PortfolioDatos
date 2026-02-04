@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local source videos (too large for GitHub)
+public/Videos/*.mkv
+

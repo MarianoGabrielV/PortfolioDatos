@@ -5,26 +5,26 @@ const Projects = () => {
         {
             id: 1,
             title: "Analisis de Resolucion de Tkt's",
-            description: "Este dashboard muestra la resolucion de tkt's para la empresa donde actualmente me desempeño como Analista de Datos y Programador.",
+            description: "Este dashboard muestra la resolucion de tkt's para la empresa donde actualmente me desempe�o como Analista de Datos y Programador.",
             tags: ["PowerBI", "Excel"],
             link: "#",
-            image: "/Images/dashbees.png"
+            video: "/Videos/ecommerce-demo.mp4"
         },
         {
             id: 2,
             title: "E-Commerce Demo",
-            description: "Una tienda en línea simulada con carrito de compras.",
+            description: "Una tienda en linea simulada con carrito de compras.",
             tags: ["Vue", "Tailwind", "Firebase"],
             link: "#",
-            image: "/Images/dashbees.png"
+            video: "/Videos/ecommerce-demo.mp4"
         },
         {
             id: 3,
             title: "Task Dashboard",
-            description: "Aplicación de gestión de tareas y productividad.",
+            description: "Aplicacion de gestion de tareas y productividad.",
             tags: ["React", "Node.js", "MongoDB"],
             link: "#",
-            image: "/Images/dashbees.png"
+            video: "/Videos/task-dashboard.mp4"
         }
     ];
 
@@ -36,8 +36,17 @@ const Projects = () => {
                     {projects.map((project) => (
                         <div key={project.id} className="col-md-4">
                             <div className="card h-100 shadow-sm border-0 bg-dark text-light">
-                                {project.image ? (
-                                    <img src={project.image} className="card-img-top" alt={project.title} style={{ height: '200px', objectFit: 'cover' }} />
+                                {project.video ? (
+                                    <video
+                                        className="card-img-top"
+                                        style={{ height: '200px', objectFit: 'cover' }}
+                                        src={project.video}
+                                        muted
+                                        loop
+                                        autoPlay
+                                        playsInline
+                                        controls
+                                    />
                                 ) : (
                                     <div className="card-img-top bg-secondary" style={{ height: '200px' }}></div>
                                 )}
@@ -61,3 +70,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+

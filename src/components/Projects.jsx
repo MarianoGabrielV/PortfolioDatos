@@ -14,7 +14,7 @@ const Projects = () => {
             ],
             tags: ["PowerBI", "Excel-CSV", "Python-Pandas",],
             link: "#",
-            video: "/Videos/2026-01-23 19-19-28.mp4"
+            video: "/Videos/task-dashboard.mp4"
         },
         {
             id: 2,
@@ -100,3 +100,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+

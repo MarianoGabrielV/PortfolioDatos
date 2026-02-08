@@ -29,3 +29,6 @@ public/Videos/*.mkv
 
 # Local source videos (too large for GitHub)
 public/Videos/*.mp4
+
+!public/Videos/rfm-dashboard-demo-web.mp4
+

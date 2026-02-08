@@ -4,17 +4,17 @@ const Experience = () => {
     const experiences = [
         {
             id: 1,
-            role: "Frontend Developer",
-            company: "Tech Solutions Inc.",
-            period: "2023 - Presente",
-            description: "Desarrollo de interfaces de usuario modernas utilizando React y TypeScript. Mejora del rendimiento web en un 40%."
+            role: "Analista de Datos / Desarrollador",
+            company: "Workgroup",
+            period: "Febrero 2024 - Actualidad",
+            description: "Recoleccion, procesamiento y validacion de datos de sistemas operativos y de negocio. Desarrollo de dashboards en Power BI, consultas con SQL/Python y automatizacion de reportes para reducir tiempos operativos."
         },
         {
             id: 2,
-            role: "Junior Web Developer",
-            company: "Creative Agency",
-            period: "2021 - 2023",
-            description: "Colaboración en sitios web corporativos y landing pages utilizando HTML, SCSS y JavaScript."
+            role: "Docente de Python y Ciencia de Datos",
+            company: "Nivel Secundario",
+            period: "2022 - Actualidad",
+            description: "Formacion en programacion, pensamiento logico y analisis de datos para adolescentes. Diseno de proyectos practicos con Python, visualizacion basica y resolucion de problemas con datos."
         }
     ];
 

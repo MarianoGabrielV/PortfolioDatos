@@ -4,25 +4,43 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: "Analisis de Resolucion de Tkt's",
-            description: "Este dashboard muestra la resolucion de tkt's para la empresa donde actualmente me desempe�o como Analista de Datos y Programador.",
-            tags: ["PowerBI", "Excel"],
+            title: "Análisis RFM + Dashboard Ejecutivo (Power BI)",
+            description: "Segmentación de clientes con RFM (Recency, Frequency, Monetary) y dashboard en Power BI para identificar segmentos clave y orientar acciones comerciales (retención, reactivación y fidelización).",
+            questions: [
+                "¿Cómo se distribuyen los clientes por segmento (Lost, At Risk, Potential, Champions, Loyal)?",
+                "¿Qué segmentos concentran la mayor parte de las ventas?",
+                "¿Cómo cambia el ticket promedio según el segmento?",
+                "¿Dónde están las oportunidades: reactivación vs fidelización?"
+            ],
+            tags: ["PowerBI", "Excel-CSV", "Python-Pandas",],
             link: "#",
-            video: "/Videos/ecommerce-demo.mp4"
+            video: "/Videos/2026-01-23 19-19-28.mp4"
         },
         {
             id: 2,
-            title: "E-Commerce Demo",
-            description: "Una tienda en linea simulada con carrito de compras.",
-            tags: ["Vue", "Tailwind", "Firebase"],
+            title: "Análisis Exploratorio de Datos (EDA) + Dashboard",
+            description: "Análisis exploratorio de datos con Python para comprender el comportamiento del negocio, detectar patrones, outliers y generar insights accionables antes de cualquier etapa de modelado o visualización BI.",
+            questions: [
+                "¿Cómo se comportan las variables principales del dataset?",
+                "¿Existen outliers o valores atípicos relevantes?",
+                "¿Qué patrones y relaciones aparecen entre métricas clave?",
+                "¿Qué insights se pueden extraer para el negocio antes de modelar?"
+            ],
+            tags: ["PowerBI", "Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
             link: "#",
             video: "/Videos/ecommerce-demo.mp4"
         },
         {
             id: 3,
-            title: "Task Dashboard",
-            description: "Aplicacion de gestion de tareas y productividad.",
-            tags: ["React", "Node.js", "MongoDB"],
+            title: "Análisis Exploratorio de Datos (EDA) con Python.",
+            description: "Análisis exploratorio de un dataset de ventas para comprender el comportamiento del negocio, detectar patrones, outliers y relaciones entre variables clave antes de la etapa de visualización o modelado. El proyecto incluye limpieza de datos, análisis estadístico, visualizaciones y generación de insights accionables.",
+            questions: [
+                "¿Cómo evolucionan las ventas en el tiempo?",
+                "¿Qué categorías y regiones concentran mayor volumen?",
+                "¿Existe relación entre ventas y ganancia?",
+                "¿Qué patrones o anomalías requieren atención del negocio?"
+            ],
+            tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
             link: "#",
             video: "/Videos/task-dashboard.mp4"
         }
@@ -50,15 +68,27 @@ const Projects = () => {
                                 ) : (
                                     <div className="card-img-top bg-secondary" style={{ height: '200px' }}></div>
                                 )}
-                                <div className="card-body">
+                                <div className="card-body d-flex flex-column">
                                     <h5 className="card-title fw-bold">{project.title}</h5>
-                                    <p className="card-text text-secondary">{project.description}</p>
-                                    <div className="d-flex gap-2 flex-wrap mb-3">
-                                        {project.tags.map(tag => (
-                                            <span key={tag} className="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-25">{tag}</span>
-                                        ))}
+                                    <p className="card-text text-secondary mb-3">{project.description}</p>
+                                    {project.questions && project.questions.length > 0 && (
+                                        <div className="mb-3">
+                                            <div className="fw-bold mb-2">Preguntas que responde:</div>
+                                            <ul className="mb-0 ps-3 text-secondary">
+                                                {project.questions.map((question) => (
+                                                    <li key={question}>{question}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+                                    <div className="mt-auto">
+                                        <div className="d-flex gap-2 flex-wrap mb-3">
+                                            {project.tags.map(tag => (
+                                                <span key={tag} className="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-25">{tag}</span>
+                                            ))}
+                                        </div>
+                                        <a href={project.link} className="btn btn-sm btn-outline-light align-self-start stretched-link">Ver Proyecto</a>
                                     </div>
-                                    <a href={project.link} className="btn btn-sm btn-outline-light stretched-link">Ver Proyecto</a>
                                 </div>
                             </div>
                         </div>
@@ -70,5 +100,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-

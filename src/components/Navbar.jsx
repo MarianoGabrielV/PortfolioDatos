@@ -14,6 +14,12 @@ const Navbar = () => {
                             <a className="nav-link active" href="#hero">Inicio</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="#about">Sobre mi</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="#projects">Proyectos</a>
                         </li>
                         <li className="nav-item">
@@ -21,6 +27,9 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#education">Estudios</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#contact">Contacto</a>
                         </li>
                     </ul>
                 </div>

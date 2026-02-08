@@ -87,7 +87,7 @@ const Projects = () => {
                                                 <span key={tag} className="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-25">{tag}</span>
                                             ))}
                                         </div>
-                                        <a href={project.link} className="btn btn-sm btn-outline-light align-self-start stretched-link">Ver Proyecto</a>
+                                        <a href={project.link} className="btn btn-sm btn-outline-light align-self-start">Ver Proyecto</a>
                                     </div>
                                 </div>
                             </div>

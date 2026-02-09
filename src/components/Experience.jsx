@@ -7,14 +7,14 @@ const Experience = () => {
             role: "Analista de Datos / Desarrollador",
             company: "Workgroup",
             period: "Febrero 2024 - Actualidad",
-            description: "Recoleccion, procesamiento y validacion de datos de sistemas operativos y de negocio. Desarrollo de dashboards en Power BI, consultas con SQL/Python y automatizacion de reportes para reducir tiempos operativos."
+            description: "Recoleccion, procesamiento y validacion de datos de sistemas operativos y de negocio. Desarrollo dashboards en Power BI para seguimiento de KPIs, realizo consultas y analisis con SQL/Python, automatizo reportes para reducir tiempos y errores, y colaboro con negocio/tecnologia en mejora continua. Tambien participo en monitoreo y analisis de logs con Docker, Kubernetes y Azure en entornos productivos."
         },
         {
             id: 2,
             role: "Docente de Python y Ciencia de Datos",
             company: "Nivel Secundario",
             period: "2022 - Actualidad",
-            description: "Formacion en programacion, pensamiento logico y analisis de datos para adolescentes. Diseno de proyectos practicos con Python, visualizacion basica y resolucion de problemas con datos."
+            description: "Formacion en programacion, pensamiento logico y analisis de datos para adolescentes. Diseno proyectos practicos con Python, visualizacion y resolucion de problemas reales para fortalecer habilidades analiticas."
         }
     ];
 

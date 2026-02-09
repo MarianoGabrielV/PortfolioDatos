@@ -10,13 +10,17 @@ const About = () => {
                         <div className="card border-0 shadow-sm">
                             <div className="card-body p-4 p-md-5">
                                 <p className="text-light text-opacity-75 mb-3">
-                                    Analista de Datos con formacion tecnica y universitaria en programacion y ciencia de datos,
-                                    con experiencia en analisis, procesamiento y visualizacion de informacion para la toma de decisiones.
+                                    <span className="fw-bold text-primary">Analista de Datos</span> con formacion tecnica y universitaria
+                                    en programacion y ciencia de datos. Trabajo en <span className="fw-bold text-primary">entornos productivos</span>,
+                                    transformando datos en <span className="fw-bold text-primary">informacion accionable</span> para la toma
+                                    de decisiones.
                                 </p>
                                 <p className="text-light text-opacity-75 mb-0">
-                                    Trabajo con Excel, SQL, Python y Power BI para analisis exploratorio, reportes automatizados
-                                    y dashboards interactivos. Tambien cuento con experiencia docente en Python y Ciencia de Datos,
-                                    enfocada en pensamiento logico y aprendizaje basado en proyectos.
+                                    Domino <span className="fw-bold text-primary">Excel Avanzado, SQL Avanzado, Python y Power BI</span> para
+                                    analisis exploratorio, modelado y automatizacion de reportes. Desarrollo
+                                    <span className="fw-bold text-primary"> dashboards orientados a KPIs</span>, colaboro con negocio y
+                                    tecnologia asegurando calidad de datos, y tambien cuento con
+                                    <span className="fw-bold text-primary"> experiencia docente en Python y Ciencia de Datos</span>.
                                 </p>
                             </div>
                         </div>

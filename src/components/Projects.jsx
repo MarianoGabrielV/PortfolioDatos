@@ -13,7 +13,7 @@ const Projects = () => {
                 "¿Dónde están las oportunidades: reactivación vs fidelización?"
             ],
             tags: ["PowerBI", "Excel-CSV", "Python-Pandas",],
-            link: "#",
+            link: "https://github.com/MarianoGabrielV/rfm-powerbi-dashboard",
             video: "/Videos/rfm-dashboard-demo-web.mp4"
         },
         {
@@ -27,7 +27,7 @@ const Projects = () => {
                 "¿Qué insights se pueden extraer para el negocio antes de modelar?"
             ],
             tags: ["PowerBI", "Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
-            link: "#",
+            link: "https://github.com/MarianoGabrielV/eda-python-sales-analysis",
             video: "/Videos/ecommerce-demo.mp4"
         },
         {
@@ -41,7 +41,7 @@ const Projects = () => {
                 "¿Qué patrones o anomalías requieren atención del negocio?"
             ],
             tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
-            link: "#",
+            link: "https://github.com/MarianoGabrielV/Datos-EDA-Python/tree/main",
             video: "/Videos/task-dashboard.mp4"
         }
     ];
@@ -87,7 +87,7 @@ const Projects = () => {
                                                 <span key={tag} className="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-25">{tag}</span>
                                             ))}
                                         </div>
-                                        <a href={project.link} className="btn btn-sm btn-outline-light align-self-start">Ver Proyecto</a>
+                                        <a href={project.link} className="btn btn-sm btn-outline-light align-self-start">Ver Proyecto en GitHub</a>
                                     </div>
                                 </div>
                             </div>

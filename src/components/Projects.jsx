@@ -1,16 +1,16 @@
-import React from 'react';
+﻿import React from 'react';
 
 const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: "Análisis RFM + Dashboard Ejecutivo (Power BI)",
-            description: "Segmentación de clientes con RFM (Recency, Frequency, Monetary) y dashboard en Power BI para identificar segmentos clave y orientar acciones comerciales (retención, reactivación y fidelización).",
+            title: "AnÃ¡lisis RFM + Dashboard Ejecutivo (Power BI)",
+            description: "SegmentaciÃ³n de clientes con RFM (Recency, Frequency, Monetary) y dashboard en Power BI para identificar segmentos clave y orientar acciones comerciales (retenciÃ³n, reactivaciÃ³n y fidelizaciÃ³n).",
             questions: [
-                "¿Cómo se distribuyen los clientes por segmento (Lost, At Risk, Potential, Champions, Loyal)?",
-                "¿Qué segmentos concentran la mayor parte de las ventas?",
-                "¿Cómo cambia el ticket promedio según el segmento?",
-                "¿Dónde están las oportunidades: reactivación vs fidelización?"
+                "Â¿CÃ³mo se distribuyen los clientes por segmento (Lost, At Risk, Potential, Champions, Loyal)?",
+                "Â¿QuÃ© segmentos concentran la mayor parte de las ventas?",
+                "Â¿CÃ³mo cambia el ticket promedio segÃºn el segmento?",
+                "Â¿DÃ³nde estÃ¡n las oportunidades: reactivaciÃ³n vs fidelizaciÃ³n?"
             ],
             tags: ["PowerBI", "Excel-CSV", "Python-Pandas",],
             link: "https://github.com/MarianoGabrielV/rfm-powerbi-dashboard",
@@ -18,13 +18,13 @@ const Projects = () => {
         },
         {
             id: 2,
-            title: "Análisis Exploratorio de Datos (EDA) + Dashboard",
-            description: "Análisis exploratorio de datos con Python para comprender el comportamiento del negocio, detectar patrones, outliers y generar insights accionables antes de cualquier etapa de modelado o visualización BI.",
+            title: "AnÃ¡lisis Exploratorio de Datos (EDA) + Dashboard",
+            description: "AnÃ¡lisis exploratorio de datos con Python para comprender el comportamiento del negocio, detectar patrones, outliers y generar insights accionables antes de cualquier etapa de modelado o visualizaciÃ³n BI.",
             questions: [
-                "¿Cómo se comportan las variables principales del dataset?",
-                "¿Existen outliers o valores atípicos relevantes?",
-                "¿Qué patrones y relaciones aparecen entre métricas clave?",
-                "¿Qué insights se pueden extraer para el negocio antes de modelar?"
+                "Â¿CÃ³mo se comportan las variables principales del dataset?",
+                "Â¿Existen outliers o valores atÃ­picos relevantes?",
+                "Â¿QuÃ© patrones y relaciones aparecen entre mÃ©tricas clave?",
+                "Â¿QuÃ© insights se pueden extraer para el negocio antes de modelar?"
             ],
             tags: ["PowerBI", "Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
             link: "https://github.com/MarianoGabrielV/eda-python-sales-analysis",
@@ -32,17 +32,32 @@ const Projects = () => {
         },
         {
             id: 3,
-            title: "Análisis Exploratorio de Datos (EDA) con Python.",
-            description: "Análisis exploratorio de un dataset de ventas para comprender el comportamiento del negocio, detectar patrones, outliers y relaciones entre variables clave antes de la etapa de visualización o modelado. El proyecto incluye limpieza de datos, análisis estadístico, visualizaciones y generación de insights accionables.",
+            title: "AnÃ¡lisis Exploratorio de Datos (EDA) con Python.",
+            description: "AnÃ¡lisis exploratorio de un dataset de ventas para comprender el comportamiento del negocio, detectar patrones, outliers y relaciones entre variables clave antes de la etapa de visualizaciÃ³n o modelado. El proyecto incluye limpieza de datos, anÃ¡lisis estadÃ­stico, visualizaciones y generaciÃ³n de insights accionables.",
             questions: [
-                "¿Cómo evolucionan las ventas en el tiempo?",
-                "¿Qué categorías y regiones concentran mayor volumen?",
-                "¿Existe relación entre ventas y ganancia?",
-                "¿Qué patrones o anomalías requieren atención del negocio?"
+                "Â¿CÃ³mo evolucionan las ventas en el tiempo?",
+                "Â¿QuÃ© categorÃ­as y regiones concentran mayor volumen?",
+                "Â¿Existe relaciÃ³n entre ventas y ganancia?",
+                "Â¿QuÃ© patrones o anomalÃ­as requieren atenciÃ³n del negocio?"
             ],
             tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
             link: "https://github.com/MarianoGabrielV/Datos-EDA-Python/tree/main",
             video: "/Videos/task-dashboard.mp4"
+        },
+        {
+            id: 4,
+            title: "Análisis Demográfico y Económico Global con MySQL y Power BI",
+            description: "Proyecto de análisis de datos utilizando MySQL para modelado y transformación de información, y Power BI para visualización ejecutiva. Se crearon vistas SQL para estructurar datos de países, ciudades, urbanización e idiomas, y posteriormente se diseñó un dashboard interactivo con KPIs globales, mapa geográfico y ranking de países por población.",
+            questions: [
+                "¿Cómo se distribuye la población mundial por continente?",
+                "¿Qué países concentran mayor población?",
+                "¿Cuál es la esperanza de vida promedio global?",
+                "¿Qué relación existe entre población, GNP y urbanización?",
+                "¿Qué regiones presentan mayor concentración demográfica?"
+            ],
+            tags: ["MySQL", "SQL", "Data Modeling", "Power BI", "Data Visualization", "Dashboard Design", "ETL", "Business Intelligence"],
+            link: "https://github.com/MarianoGabrielV/MySQLPowerBI",
+            video: "/Videos/SqlPowerBI.mp4"
         }
     ];
 
@@ -100,6 +115,10 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+
+
 
 
 

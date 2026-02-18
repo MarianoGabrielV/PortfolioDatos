@@ -1,4 +1,4 @@
-# Logs
+﻿# Logs
 logs
 *.log
 npm-debug.log*
@@ -31,4 +31,6 @@ public/Videos/*.mkv
 public/Videos/*.mp4
 
 !public/Videos/rfm-dashboard-demo-web.mp4
+!public/Videos/SqlPowerBI.mp4
+
 

@@ -16,7 +16,7 @@ const Skills = () => {
         },
         {
             title: "Entorno Productivo y Colaboracion",
-            skills: ["Git", "GitHub", "Linux", "Docker", "Kubernetes", "Azure", "Monitoreo de Logs"]
+            skills: ["Git", "GitHub", "Netlify", "APIs REST", "CI/CD", "Linux", "Docker", "Kubernetes", "Azure", "Monitoreo de Logs"]
         }
     ];
 

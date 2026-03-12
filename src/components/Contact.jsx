@@ -9,8 +9,8 @@ const Contact = () => {
                     <div className="col-md-6 col-lg-3">
                         <div className="card h-100 border-0 text-center p-3">
                             <h5 className="fw-bold mb-2">Email</h5>
-                            <a className="text-decoration-none text-light text-opacity-75" href="mailto:mairano.unla@gmail.com">
-                                mairano.unla@gmail.com
+                            <a className="text-decoration-none text-light text-opacity-75" href="mailto:mariano.unla@gmail.com">
+                                mariano.unla@gmail.com
                             </a>
                         </div>
                     </div>

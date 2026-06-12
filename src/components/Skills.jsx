@@ -4,11 +4,11 @@ const Skills = () => {
     const skillGroups = [
         {
             title: "Analisis y BI",
-            skills: ["Excel Avanzado", "Power BI", "DAX", "KPIs", "Reporting Ejecutivo"]
+            skills: ["Excel Avanzado", "Power BI", "DAX", "KPIs", "Reporting Ejecutivo", "Dashboards Interactivos", "Power Query"]
         },
         {
             title: "Datos y Programacion",
-            skills: ["SQL Avanzado", "Python", "PostgreSQL", "MySQL", "SQL Server"]
+            skills: ["SQL Avanzado", "Python", "PostgreSQL", "MySQL", "SQL Server", "ETL", "Data Cleaning", "Transformación de datos"]
         },
         {
             title: "Librerias Python (Analisis y Grandes Volumenes)",
@@ -16,7 +16,7 @@ const Skills = () => {
         },
         {
             title: "Entorno Productivo y Colaboracion",
-            skills: ["Git", "GitHub", "Netlify", "APIs REST", "CI/CD", "Linux", "Docker", "Kubernetes", "Azure", "Monitoreo de Logs"]
+            skills: ["Git", "GitHub", "Netlify", "APIs REST", "CI/CD", "Linux", "Docker", "Kubernetes", "Azure", "Monitoreo de Logs", "CRM", "Automatizaciones"]
         }
     ];
 

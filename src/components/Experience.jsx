@@ -2,13 +2,7 @@ import React from 'react';
 
 const Experience = () => {
     const experiences = [
-        {
-            id: 0,
-            role: "Analista de Datos – Railcom",
-            company: "Railcom",
-            period: "Febrero 2026 – Actualidad",
-            description: "Diseño y desarrollo dashboards interactivos en Power BI para el seguimiento y análisis de indicadores estratégicos de clientes corporativos como Prosegur, ICBC y Banco Galicia. Gestión integral de bases de datos orientadas al área de call center, incluyendo depuración, transformación y preparación de información para su posterior carga en sistemas CRM. Elaboración de reportes analíticos para clientes, detectando oportunidades de mejora y tendencias operativas. Participación activa en reuniones con clientes para presentar resultados, proponer nuevas estrategias comerciales y optimizar procesos de negocio. Desarrollo e implementación de automatizaciones internas enfocadas en mejorar la eficiencia operativa, reducir tareas manuales y potenciar la toma de decisiones basada en datos."
-        },
+        
         {
             id: 1,
             role: "Analista de Datos / Desarrollador",

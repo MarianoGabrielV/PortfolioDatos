@@ -1,29 +1,12 @@
 import React from 'react';
 
-const Skills = () => {
-    const skillGroups = [
-        {
-            title: "Analisis y BI",
-            skills: ["Excel Avanzado", "Power BI", "DAX", "KPIs", "Reporting Ejecutivo", "Dashboards Interactivos", "Power Query"]
-        },
-        {
-            title: "Datos y Programacion",
-            skills: ["SQL Avanzado", "Python", "PostgreSQL", "MySQL", "SQL Server", "ETL", "Data Cleaning", "Transformación de datos"]
-        },
-        {
-            title: "Librerias Python (Analisis y Grandes Volumenes)",
-            skills: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Plotly", "Scikit-learn", "PySpark", "Dask", "Polars"]
-        },
-        {
-            title: "Entorno Productivo y Colaboracion",
-            skills: ["Git", "GitHub", "Netlify", "APIs REST", "CI/CD", "Linux", "Docker", "Kubernetes", "Azure", "Monitoreo de Logs", "CRM", "Automatizaciones"]
-        }
-    ];
+const Skills = ({ t }) => {
+    const skillGroups = t.skills.groups;
 
     return (
         <section id="skills" className="section-padding">
             <div className="container">
-                <h2 className="display-5 fw-bold text-center mb-5">Skills <span className="text-gradient">Tecnicas</span></h2>
+                <h2 className="display-5 fw-bold text-center mb-5">{t.skills.title} <span className="text-gradient">{t.skills.highlight}</span></h2>
                 <div className="row justify-content-center">
                     <div className="col-lg-10">
                         <div className="card border-0 shadow-sm bg-dark text-light">
